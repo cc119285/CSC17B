@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Survey</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="Question.js"></script>
+        <script type="text/javascript" src="Survey.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript" src="Survey.js">
+        var survey= new Survey("Survey");
+        survey.getJSON("Survey");
+        survey.start();
+        survey.print();
+        survey.complete();
+        </script>
+    </body>
+</html>
